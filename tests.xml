@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmavaHomework">
+    <parameter name="aURL" value="https://www.smava.de"/>
+    <parameter name="aBrowser" value="chrome"/>
+    <test name="SmavaHomework">
+        <packages>
+            <package name="mypack.tests" />
+        </packages>
+        <!-- classes>
+            <class name="mypack.tests.LandingPageTest"/>
+            <class name="mypack.tests.ResultPageTest"/>
+            <class name="mypack.tests.LoginWindowPageTest"/>
+        </classes -->
+    </test>
+</suite>
