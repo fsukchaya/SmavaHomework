@@ -3,7 +3,8 @@
 - create configuration file for TestNG (tests.xml)
   * set parameters in tests.xml
     ```<parameter name="aURL" value="https://www.smava.de"/>
-    <parameter name="aBrowser" value="chrome"/>```
+    <parameter name="aBrowser" value="chrome"/>
+    ```
   
   * use xml file for running TestNG suite
     ```<plugin>
@@ -15,5 +16,6 @@
                        <suiteXmlFile>tests.xml</suiteXmlFile>
                    </suiteXmlFiles>
                </configuration>
-    </plugin>```
+    </plugin>
+    
     
